@@ -1,0 +1,20 @@
+// I promise that the work submitted here is solely my own.
+//
+// mbeltz
+
+project (Array) {
+  exename = otpt
+
+  Source_Files {
+    Array.cpp
+	driver.cpp
+  }
+  
+  Header_Files {
+    Array.h.h
+  }
+  
+  Inline_Files {
+    Array.inl
+  }
+}
