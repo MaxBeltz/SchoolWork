@@ -1,0 +1,110 @@
+Welcome to the Anglo-Saxon Castle
+Where it is BYOP (Bring Your Own Plate)
+
+1) Linear Probing
+2) Separate Chaining
+3) Cuckoo Hashing
+0) Quit
+Please enter your choice: 1
+We doin the Str8 boiiiii
+1) Load Table From File
+2) Insert
+3) Search
+4) Delete
+5) Print Hash Table
+0) Quit
+
+Please enter your choice: 1
+Please enter the file name: loadtable.txt
+Loading...
+
+Loaded Sucessfully
+1) Load Table From File
+2) Insert
+3) Search
+4) Delete
+5) Print Hash Table
+0) Quit
+
+Please enter your choice: 2
+please enter the number you want to insert: 22
+Attempting to insert 22
+
+Inserted Sucessfully
+1) Load Table From File
+2) Insert
+3) Search
+4) Delete
+5) Print Hash Table
+0) Quit
+
+Please enter your choice: 5
+[0]: 100
+[1]: 900
+[2]: 2
+[3]: 222
+[4]: 22
+[5]: 0
+[6]: 0
+[7]: 0
+[8]: 0
+[9]: 89
+[10]: 0
+[11]: 0
+[12]: 0
+[13]: 0
+[14]: 0
+[15]: 0
+[16]: 896
+[17]: 697
+[18]: 457
+[19]: 0
+1) Load Table From File
+2) Insert
+3) Search
+4) Delete
+5) Print Hash Table
+0) Quit
+
+Please enter your choice: 4
+Please enter the number you want to delete: 222
+Attempting to Delete 222
+
+222 deleted
+1) Load Table From File
+2) Insert
+3) Search
+4) Delete
+5) Print Hash Table
+0) Quit
+
+Please enter your choice: 5
+[0]: 100
+[1]: 900
+[2]: 2
+[3]: 0
+[4]: 22
+[5]: 0
+[6]: 0
+[7]: 0
+[8]: 0
+[9]: 89
+[10]: 0
+[11]: 0
+[12]: 0
+[13]: 0
+[14]: 0
+[15]: 0
+[16]: 896
+[17]: 697
+[18]: 457
+[19]: 0
+1) Load Table From File
+2) Insert
+3) Search
+4) Delete
+5) Print Hash Table
+0) Quit
+
+Please enter your choice: 0
+I bid you adu and a fair thee well my good person

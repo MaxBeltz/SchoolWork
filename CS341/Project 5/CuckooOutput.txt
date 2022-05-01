@@ -1,0 +1,114 @@
+Welcome to the Anglo-Saxon Castle
+Where it is BYOP (Bring Your Own Plate)
+
+1) Linear Probing
+2) Separate Chaining
+3) Cuckoo Hashing
+0) Quit
+Please enter your choice: 3
+You did a cyaazyt
+1) Load Table From File
+2) Insert
+3) Search
+4) Delete
+5) Print Hash Table
+0) Quit
+
+Please enter your choice: 1
+Please enter the file name: loadtable.txt
+Loading...
+
+Loaded Sucessfully
+1) Load Table From File
+2) Insert
+3) Search
+4) Delete
+5) Print Hash Table
+0) Quit
+
+Please enter your choice: 5
+[0]: 900                [0]: 100
+[1]: 0          [1]: 0
+[2]: 2          [2]: 222
+[3]: 0          [3]: 0
+[4]: 0          [4]: 0
+[5]: 0          [5]: 0
+[6]: 896                [6]: 0
+[7]: 457                [7]: 0
+[8]: 0          [8]: 0
+[9]: 89         [9]: 697
+1) Load Table From File
+2) Insert
+3) Search
+4) Delete
+5) Print Hash Table
+0) Quit
+
+Please enter your choice: 2
+please enter the number you want to insert: 22
+Attempting to insert 22
+
+Inserted Sucessfully
+1) Load Table From File
+2) Insert
+3) Search
+4) Delete
+5) Print Hash Table
+0) Quit
+
+Please enter your choice: 5
+[0]: 0          [0]: 2
+[1]: 222                [1]: 0
+[2]: 457                [2]: 0
+[3]: 900                [3]: 0
+[4]: 0          [4]: 0
+[5]: 0          [5]: 0
+[6]: 0          [6]: 0
+[7]: 0          [7]: 100
+[8]: 697                [8]: 0
+[9]: 22         [9]: 0
+[10]: 0         [10]: 0
+[11]: 89                [11]: 0
+[12]: 896               [12]: 0
+1) Load Table From File
+2) Insert
+3) Search
+4) Delete
+5) Print Hash Table
+0) Quit
+
+Please enter your choice: 4
+Please enter the number you want to delete: 22
+Attempting to Delete 22
+
+22 deleted
+1) Load Table From File
+2) Insert
+3) Search
+4) Delete
+5) Print Hash Table
+0) Quit
+
+Please enter your choice: 5
+[0]: 0          [0]: 2
+[1]: 222                [1]: 0
+[2]: 457                [2]: 0
+[3]: 900                [3]: 0
+[4]: 0          [4]: 0
+[5]: 0          [5]: 0
+[6]: 0          [6]: 0
+[7]: 0          [7]: 100
+[8]: 697                [8]: 0
+[9]: 0          [9]: 0
+[10]: 0         [10]: 0
+[11]: 89                [11]: 0
+[12]: 896               [12]: 0
+1) Load Table From File
+2) Insert
+3) Search
+4) Delete
+5) Print Hash Table
+0) Quit
+
+Please enter your choice: 0
+I bid you adu and a fair thee well my good person

@@ -1,0 +1,11 @@
+lowerbar 0
+rshift 5
+setbar 1
+lshift 3
+hammer 4
+tacticalnuke 0
+lowerbar 0
+lowerbar 0
+rshift 25
+lshift 10
+hammer 21
