@@ -1,0 +1,25 @@
+// I promise that the work submitted here is solely my own.
+//
+// mbeltz
+project (Calculator){
+	exename = otpt
+	
+	Source_Files {
+		NodeBio.cpp
+		NodeDev.cpp
+		NodeMod.cpp
+		NodeAdd.cpp
+		NodeSub.cpp
+		NodeNum.cpp
+		NodeMult.cpp
+		driver.cpp
+		VisitorConcrete.cpp
+		Builder.cpp
+	}
+	
+	Header_Files {
+		Node.h
+		Visitor.h
+		Builder.h
+	}
+}
