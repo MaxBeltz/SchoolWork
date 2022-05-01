@@ -1,0 +1,12 @@
+6: Calculator::Calculator(): expression(), numbers(), factory() {}
+52: 					numbers.push(factory.buildNum(num));
+83: 		int ans = expression.top()->run(numbers);
+84: 		numbers.push(factory.buildNum(ans));
+116: 		int num = expression.top()->run(numbers);
+117: 		numbers.push(factory.buildNum(num));
+130: 		int num = expression.top()->run(numbers);
+131: 		numbers.push(factory.buildNum(num));
+135: 	std::cout << "Your Answer is: " << numbers.top()->run(numbers) << std::endl;
+145: 	while(!numbers.empty()){
+146: 		delete numbers.top();
+147: 		numbers.pop();

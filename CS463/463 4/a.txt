@@ -1,0 +1,3 @@
+46: 				if(lineofCode.find(slice) != string::npos && linenum >= start)
+47: 					output << linenum << ": " << lineofCode << endl;
+48: 				linenum++;
