@@ -1,0 +1,92 @@
+File points:
+	AddCommissionedEmployee.java extends AddEmployeeTransaction
+		Short method that nakes an employee on comission and overrides payment classification and schedule
+	AddEmployeePresenter.java 
+		Class with tons of getters and setters. Used as a data structure
+	AddEmployeeTransaction.java
+		Parent function ment to be inherited by the looks
+			maybe rename variables?
+	AddEmployeeView.java
+		A single one line method
+			is this needed? can we put this somewhere else?
+	AddHourlyEmployee.java Extends AddEmployeeTransaction
+		Creates an hourly employee and overrides the virtual methods
+	AddSalariedEmployee.java extends AddEmployeeTransaction
+		Creates an Salaried employee and overrides the virtual methods
+	Affiliation.java !!!!!!!!!!!!!!!!!!!!!!!
+		Will need to be removed per assignment
+		has the class NoAffiliation within it
+		This base class only shows use for a calculate deductions method.
+			will likely have to remove that functionality as well
+	BiWeeklySchedule.java 
+		Determines if it is payday, fairly simple
+	ChangeAddressTransaction.java 
+		A whole class for changing the employee address
+	ChangeAffiliationTransaction.java !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+		A class for changing Affiliation Transaction
+		Will need to be removed as per assignment requirements
+	ChangeClassificationTransaction.java
+		A class to change classification
+	ChangeCommissionTransaction.java
+		A class to change the commission rate. Slightly more complex than the others
+	ChangeEmployeeTransaction.java
+		A base class that will be used for all change classes
+	ChangeHourlyTransaction.java 
+		A class to change the hourly rate of pay
+	ChangeMemberTransaction.java
+		A class to change a Member 
+	ChangeNameTransaction.java 
+		A class to change the name of an employee
+	ChangeSalariedTransaction.java
+		A class to change the Salary of an employee
+	ChangeUnaffiliatedTransaction.java !!!!!!!!!!!!!!!!!!!!!!!!!!
+		A class to change the transaction of an unaffiliated employee
+		Will need to be removed per the assignment requireents
+	CommissionedClassification.java
+		A class that is used to change information about a commission employee
+	DeleteEmployeeTransaction.java 
+		A class that is used to delet an employee
+	Employee.java !!!!!!!!!!!!!!!!!!!!!!!!!!!
+		Base employee class from which others will be inherited
+		mentions affiliation so will need to be modified 
+	HoldMethod.java 
+		A method with a single void method?
+		Unsure as to its point
+	HourlyClassification.java 
+		Used to change the information of an hourly employee
+	MonthlySchedule.java 
+		Used to determine Payday
+	Paycheck.java
+		A class for Paychecks, looks like it was made to be inherited 
+	PaydayTransaction.java
+		Used to create a payday
+	PaymentClassification.java
+		Used to calculate Pay
+	PaymentMethod.java
+		Also used to calculate pay?
+	PaymentSchedule.java
+		Determines the pay schedule
+	PayrollDatabase.java
+		Deals with the employee Database with getters and setters
+	SalariedClassification.java
+		Gets the Salary of an employee
+	SalesReceipt.java
+		Gets a recept for a sale
+	SalesReceiptTransaction.java 
+		Executes the Sales Recept
+	ServiceCharge.java 
+		Creates a serviceCharge
+	ServiceChargeTransaction.java
+		actually applies the service charge
+	TimeCard.java 
+		Creates a Time card
+	TimeCardTransaction.java
+		Creates the transaction for the above timecard
+	Transaction.java 
+		Base Class for all transactions
+	TransactionContainer.java
+		Empty Code?
+	UnionAffiliation.java
+		Determines if the employee is union
+	WeeklySchedule.java 
+		Creates a weekly schedule

@@ -1,0 +1,20 @@
+Merge Sort
+	Main
+		Fairly rudamentary
+		No direct requirements so no general improvements
+	Mergesort
+		varriables are a bit generic
+		describe the point of M
+	merge
+		n1/n2 are ampiguous
+		variables could use more description
+		use alies instead of filling?
+			line 40/41
+		
+Quick Sort
+	uses Namespace, it it worth putting all sorts in this namespace
+	need to rename some variables for more clarity
+Shell Sort
+	Very short and simple
+	
+	

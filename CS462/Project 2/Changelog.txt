@@ -1,0 +1,15 @@
+Change Log:
+Rearranged code to seporate graphics
+Moved board to graphics class
+improved button creation in constructor
+removed opening variable as it did not seem to have a purpose
+created title gui class
+made the moveMade function to cut down in repetition
+Changed AI move to allow for loops rather that physically checking all possibilities 
+Created equation for entirity of AI move ande removed random choice
+	random coice whould only ever go for 4 moves so I didn't see the point
+Condenced move into a single for loop, wanted to keep 2 try catches
+movoved Moves into graphic class
+moved final screen to the graphics class
+elected not to make any changes to action preformed as I was not fully confident in my ability to do so correctly
+Elected not to make any major change for check win as felt there was no need
