@@ -1,0 +1,19 @@
+// I promise that the work submitted here is solely my own.
+//
+// mbeltz
+
+project (Array) {
+  exename = otpt
+
+  Source_Files {
+	driver.cpp
+  }
+
+  Template_Files {
+	Dynamic_Array.cpp
+	Array.cpp
+	Fixed_Array.cpp
+	Stack.cpp
+	Queue.cpp
+  }
+}
