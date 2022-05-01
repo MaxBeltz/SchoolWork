@@ -1,0 +1,5 @@
+Compile:
+mpicxx -o outputname program name
+
+Run:
+mpirun -q -np numOfProcessors outputname
