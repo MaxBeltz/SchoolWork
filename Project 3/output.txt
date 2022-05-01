@@ -1,0 +1,368 @@
+lowerbar 0
+
+Bar Height: 9
+
+Pirate_0 14 0
+Pirate_1 2 0
+Pirate_2 13 0
+Pirate_3 11 0
+Pirate_4 9 0
+Pirate_5 11 0
+Pirate_6 2 0
+Pirate_7 13 0
+Pirate_8 10 0
+Pirate_9 2 0
+Pirate_10 3 0
+Pirate_11 8 0
+Pirate_12 6 0
+Pirate_13 5 0
+Pirate_14 9 0
+Pirate_15 2 0
+Pirate_16 1 0
+Pirate_17 7 0
+Pirate_18 8 0
+Pirate_19 2 0
+
+
+rshift 5
+
+Lived:
+Pirate_1 2 0
+Dead:
+Pirate_2 13 0
+Dead:
+Pirate_3 11 0
+Lived:
+Pirate_4 9 0
+Dead:
+Pirate_5 11 0
+
+
+Pirate_0 14 0
+Pirate_1 2 1
+Pirate_4 9 1
+Pirate_6 2 0
+Pirate_7 13 0
+Pirate_8 10 0
+Pirate_9 2 0
+Pirate_10 3 0
+Pirate_11 8 0
+Pirate_12 6 0
+Pirate_13 5 0
+Pirate_14 9 0
+Pirate_15 2 0
+Pirate_16 1 0
+Pirate_17 7 0
+Pirate_18 8 0
+Pirate_19 2 0
+Pirate_20 12 0
+Pirate_21 9 0
+Pirate_22 13 0
+
+
+setbar 1
+
+Bar Height: 1
+
+Pirate_0 14 0
+Pirate_1 2 1
+Pirate_4 9 1
+Pirate_6 2 0
+Pirate_7 13 0
+Pirate_8 10 0
+Pirate_9 2 0
+Pirate_10 3 0
+Pirate_11 8 0
+Pirate_12 6 0
+Pirate_13 5 0
+Pirate_14 9 0
+Pirate_15 2 0
+Pirate_16 1 0
+Pirate_17 7 0
+Pirate_18 8 0
+Pirate_19 2 0
+Pirate_20 12 0
+Pirate_21 9 0
+Pirate_22 13 0
+
+
+lshift 3
+
+Dead:
+Pirate_1 2 1
+Dead:
+Pirate_0 14 0
+
+
+Pirate_4 9 1
+Pirate_6 2 0
+Pirate_7 13 0
+Pirate_8 10 0
+Pirate_9 2 0
+Pirate_10 3 0
+Pirate_11 8 0
+Pirate_12 6 0
+Pirate_13 5 0
+Pirate_14 9 0
+Pirate_15 2 0
+Pirate_16 1 0
+Pirate_17 7 0
+Pirate_18 8 0
+Pirate_19 2 0
+Pirate_20 12 0
+Pirate_21 9 0
+Pirate_22 13 0
+Pirate_23 10 0
+Pirate_24 3 0
+
+
+hammer 4
+
+
+
+Pirate_4 9 1
+Pirate_6 2 0
+Pirate_7 13 0
+Pirate_8 10 0
+Pirate_10 3 0
+Pirate_11 8 0
+Pirate_12 6 0
+Pirate_13 5 0
+Pirate_14 9 0
+Pirate_15 2 0
+Pirate_16 1 0
+Pirate_17 7 0
+Pirate_18 8 0
+Pirate_19 2 0
+Pirate_20 12 0
+Pirate_21 9 0
+Pirate_22 13 0
+Pirate_23 10 0
+Pirate_24 3 0
+Pirate_25 6 0
+
+
+tacticalnuke 0
+
+
+
+Pirate_26 3 0
+Pirate_27 14 0
+Pirate_28 8 0
+Pirate_29 11 0
+Pirate_30 15 0
+Pirate_31 13 0
+Pirate_32 13 0
+Pirate_33 4 0
+Pirate_34 15 0
+Pirate_35 13 0
+Pirate_36 14 0
+Pirate_37 2 0
+Pirate_38 2 0
+Pirate_39 8 0
+Pirate_40 10 0
+Pirate_41 4 0
+Pirate_42 7 0
+Pirate_43 15 0
+Pirate_44 15 0
+Pirate_45 8 0
+
+
+lowerbar 0
+
+Bar Height: 0
+
+Pirate_26 3 0
+Pirate_27 14 0
+Pirate_28 8 0
+Pirate_29 11 0
+Pirate_30 15 0
+Pirate_31 13 0
+Pirate_32 13 0
+Pirate_33 4 0
+Pirate_34 15 0
+Pirate_35 13 0
+Pirate_36 14 0
+Pirate_37 2 0
+Pirate_38 2 0
+Pirate_39 8 0
+Pirate_40 10 0
+Pirate_41 4 0
+Pirate_42 7 0
+Pirate_43 15 0
+Pirate_44 15 0
+Pirate_45 8 0
+
+
+lowerbar 0
+
+Bar Height: 10
+
+Pirate_26 3 0
+Pirate_27 14 0
+Pirate_28 8 0
+Pirate_29 11 0
+Pirate_30 15 0
+Pirate_31 13 0
+Pirate_32 13 0
+Pirate_33 4 0
+Pirate_34 15 0
+Pirate_35 13 0
+Pirate_36 14 0
+Pirate_37 2 0
+Pirate_38 2 0
+Pirate_39 8 0
+Pirate_40 10 0
+Pirate_41 4 0
+Pirate_42 7 0
+Pirate_43 15 0
+Pirate_44 15 0
+Pirate_45 8 0
+
+
+rshift 25
+
+Dead:
+Pirate_27 14 0
+Lived:
+Pirate_28 8 0
+Dead:
+Pirate_29 11 0
+Dead:
+Pirate_30 15 0
+Dead:
+Pirate_31 13 0
+Dead:
+Pirate_32 13 0
+Lived:
+Pirate_33 4 0
+Dead:
+Pirate_34 15 0
+Dead:
+Pirate_35 13 0
+Dead:
+Pirate_36 14 0
+Lived:
+Pirate_37 2 0
+Lived:
+Pirate_38 2 0
+Lived:
+Pirate_39 8 0
+Lived:
+Pirate_40 10 0
+Lived:
+Pirate_41 4 0
+Lived:
+Pirate_42 7 0
+Dead:
+Pirate_43 15 0
+Dead:
+Pirate_44 15 0
+Lived:
+Pirate_45 8 0
+Lived:
+Pirate_46 9 0
+Dead:
+Pirate_47 15 0
+Lived:
+Pirate_48 6 0
+Lived:
+Pirate_49 1 0
+Lived:
+Pirate_50 9 0
+Lived:
+Pirate_51 2 0
+
+
+Pirate_26 3 0
+Pirate_28 8 1
+Pirate_33 4 1
+Pirate_37 2 1
+Pirate_38 2 1
+Pirate_39 8 1
+Pirate_40 10 1
+Pirate_41 4 1
+Pirate_42 7 1
+Pirate_45 8 1
+Pirate_46 9 1
+Pirate_48 6 1
+Pirate_49 1 1
+Pirate_50 9 1
+Pirate_51 2 1
+Pirate_52 2 0
+Pirate_53 6 0
+Pirate_54 12 0
+Pirate_55 4 0
+Pirate_56 3 0
+
+
+lshift 10
+
+Lived:
+Pirate_50 9 1
+Lived:
+Pirate_49 1 1
+Lived:
+Pirate_48 6 1
+Lived:
+Pirate_46 9 1
+Lived:
+Pirate_45 8 1
+Lived:
+Pirate_42 7 1
+Lived:
+Pirate_41 4 1
+Lived:
+Pirate_40 10 1
+Lived:
+Pirate_39 8 1
+Lived:
+Pirate_38 2 1
+
+
+Pirate_26 3 0
+Pirate_28 8 1
+Pirate_33 4 1
+Pirate_37 2 1
+Pirate_38 2 2
+Pirate_39 8 2
+Pirate_40 10 2
+Pirate_41 4 2
+Pirate_42 7 2
+Pirate_45 8 2
+Pirate_46 9 2
+Pirate_48 6 2
+Pirate_49 1 2
+Pirate_50 9 2
+Pirate_51 2 1
+Pirate_52 2 0
+Pirate_53 6 0
+Pirate_54 12 0
+Pirate_55 4 0
+Pirate_56 3 0
+
+
+hammer 21
+
+
+
+Pirate_26 3 0
+Pirate_28 8 1
+Pirate_33 4 1
+Pirate_37 2 1
+Pirate_38 2 2
+Pirate_39 8 2
+Pirate_40 10 2
+Pirate_41 4 2
+Pirate_42 7 2
+Pirate_45 8 2
+Pirate_46 9 2
+Pirate_48 6 2
+Pirate_49 1 2
+Pirate_50 9 2
+Pirate_51 2 1
+Pirate_52 2 0
+Pirate_53 6 0
+Pirate_54 12 0
+Pirate_55 4 0
+Pirate_56 3 0
