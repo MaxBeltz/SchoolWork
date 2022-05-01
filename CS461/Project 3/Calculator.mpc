@@ -1,0 +1,34 @@
+// I promise that the work submitted here is solely my own.
+//
+// mbeltz
+project (Calculator){
+	exename = otpt
+	
+	Source_Files {
+		CommandBio.cpp
+		CommandMult.cpp
+		CommandDev.cpp
+		CommandMod.cpp
+		CommandAdd.cpp
+		CommandSub.cpp
+		CommandNum.cpp
+		CommandPar.cpp
+		driver.cpp
+		calculatorFactory.cpp
+		Calculator.cpp
+	}
+	
+	Header_Files {
+		Command.h
+		CommandBio.h
+		CommandMult.h
+		CommandDev.h
+		CommandMod.h
+		CommandAdd.h
+		CommandSub.h
+		CommandNum.h
+		CommandPar.h
+		calculatorFactory.h
+		Calculator.h
+	}
+}
