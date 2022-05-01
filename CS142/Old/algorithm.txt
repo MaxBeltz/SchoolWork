@@ -1,0 +1,25 @@
+The Goal is to create a calculator that can add subtract multiply and divide
+	Also provide a menue to select the operation that the user wishes to use
+	
+input
+	2 ints + a string for which operation is being used
+output
+	1 int
+	
+First we must declair two variables num1 and num2 as null
+	both of these will be set to an input (num1 to the first and num2 to the second)
+we must also make a string, operation, used as menue.
+	
+The entire code will be put on a while loop to allow the calculator to keep being used.
+Next we must set up three sets of inputs
+	The first input will be a string to determine what operation will be used
+		(addition subtraction multiplication division or end)
+	The next two inputs will link to the variables num1 and num2 respectivly
+
+Various if else if	statements will be used to link the user's choice (operation) to the correct operation.
+	
+The output will use the variables num1 and num2 to complete whatever operation was selected
+	(num1+num2 num1-num2 num1*num2 num1/num2)
+	the program will then loop again to the top so the user can either preform another operation or end
+
+For the division operation we must make a double variable and convert num1 and num 2 to doubles for acuracy 

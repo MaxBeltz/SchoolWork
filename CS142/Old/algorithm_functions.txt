@@ -1,0 +1,38 @@
+Problem: Creating a calculator that can solve baseic arithmatic (add, sub, mult, div) by using functions
+
+Input: 2 doubles that will be used for calculations and 1 int that will be used to slect which function to use
+
+Output: The correct computational value
+
+Step by Step Instruction:
+	1. Start with the initialization of all the proper function (add, sub, mult, div, and the input)
+	2. The main function
+		A. Create two doubles that will be used for input and one int that will be used for selecting the operation and a double to show the output
+		B. Present a greeting along with a menue with all possible computations
+		C. Collect input to represent which operation is used
+		D. Use the input function to collect the input for the calculation
+			a. If division is being used make sure 0 is no the denominator
+		E. Create a while loop to run through the if thens until the user wants to stop
+		F. Use various if thens to connect the desired operation with the correct function
+		G. Use the returned value as the value for the finished calculation
+		H. Output the finished calculation
+	3. The input function
+		A. Create the function with 2 doubles of call-by value
+		B. Collect 2 inputs to be used for calculations
+		C. Ensure that the two inputs in the function correspont to the two variables that will be used for calculations
+	4. The addition function
+		A. Use the two variables altered by input
+		B. Add the two together
+		C. Return the answer to the variable assigned to keeping the answer
+	5. The addition function
+		A. Use the two variables altered by input
+		B. Subtract the second input from the first input
+		C. Return the answer to the variable assigned to keeping the answer
+	5. The multiplication function function
+		A. Use the two variables altered by input
+		B. Multiply the two together
+		C. Return the answer to the variable assigned to keeping the answer
+	6. The division function
+		A. Use the two variables altered by input
+		B. Devide the second input by the first input
+		C. Return the answer to the variable assigned to keeping the answer

@@ -1,0 +1,27 @@
+Problem: We need to create a manue that allows the user to "order" from it and allows them to pay
+		 An amout of "money" once the program is ended
+
+Input: A series of inputs to represent the menue items the the user wishes to order.
+	   A double to represent how much money they are using to pay with 
+
+Output: A chunk of text to signify a menue with prices and order numbers to correspond to each item
+        A sentence to confirm what was ordered
+		A total cost once the order has ended
+		A statement of change due given the price and payment
+		
+Step by step
+	Start by creating a series of variables to represent certain values
+		create a series of doubles to represent the price of each menue item 
+		create a double to store then display the total cost 
+		create an int to represent the order number
+	Set up a while loop to run for the entirety of the order.
+		Within this loop 
+			print the menue
+			ask for an input to represent the order number 
+			Add the price of each item to the total cost
+			Continue until the user triggers the end of the program
+	Once the "order is complete"
+		Give the total price of the order
+		Ask the user to input the amount they are paying with.
+			confirm that they are paying the right amount.
+		Thank them and give them their "change"

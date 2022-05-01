@@ -1,0 +1,35 @@
+Problem
+	create a simulation of a game between Butler and an opponent while displaying the real time scores and the winner
+	
+Input 
+	one string to determine the opposing team 
+	
+Output
+	A string plus the two scores to show the current scores
+	The final scores plus who won and by how much
+		once end is triggered
+
+Step by step:
+	1. Create 2 variables (ints) to represent the scores of the two teams
+	2. Create a string to represent the name of the opposing team
+	3. Create 3 int variables to use with a random number generator in the future
+		used to determine if there was a score by who and how much
+	4. Create 2 int variables to represent the game clock
+		time and quarter
+	5. Set the initial scores to 0 and quarter to 1
+	6. Seed a random number generator with the systen time for later use
+	7. Ask the user for the name of the opposing team
+		using prompting outputs
+	8. Create 2 series of loops one inside the other
+		the outside loop will run every quarter the inside every second
+	9. For the inside loop
+		A. Set the game clock to 720 (12 minutes)
+		B. For each second
+			run an rng and chenk against a specific number to score
+				if a score run an rng for which team scored and by how much
+				make sure to break up output with a dummy input
+			wether a score or not subtract a second from the clock
+		C. Once out of time increase the quarter by 1 (until 4) and repeat per the outside loop
+	10. The outside loop should repeat 4 times for the 4 quarters
+	11. Once the loops have stopped you have the final scores
+	12. Have a set of 3 if statements to determine the outcome and print an appropriate statement

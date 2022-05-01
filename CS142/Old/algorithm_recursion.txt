@@ -1,0 +1,16 @@
+1. Create a char array that will be used for the reversing
+2. Set that equal to an input from the user
+	A. Create the input near the end, start off with a defined word for testing
+3. Find the length of the array
+4. Pass the array and its length into reverseword
+	A. Create an if else statement
+		a. Within this if then create two variables to be defined each run
+			1. A dump char variable to not loose any data upon the swapping
+			2. An int that will represent the actual length of the array
+		b. Have dump get the char in the position of the passed number - 1
+		c. Have the position of the passed number - 1 get the positon of (actual length - passed length)
+		d. Have the positon (actual lenght - passed number)
+		e. Subtract one from the passed number
+		f. Call the function again with the modified passed number and matrix
+	B. The else will be triggered when the actual length - the passed number > the passed number
+		a. At this point print out the array char by char.

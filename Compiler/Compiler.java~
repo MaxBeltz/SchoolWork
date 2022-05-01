@@ -1,0 +1,140 @@
+import java.io.*;
+import java.util.*;
+import java.lang.Math;
+
+class Compiler
+{
+  public static double count = 16;
+  
+  public static void Conversion(String nextLine, String[][] compList, String[][] destList, String[][] jumpList)
+  {
+    int i = 0;
+    String command = "";
+    while(nextLine.charAt(i) == ' ')
+      i++;
+    if(nextLine.charAt(i) == '/')
+         return;
+    if(nextLine.charAt(i) == '@')
+    {
+      String location = "";
+      i++;
+      while(i<nextLine.length())
+       {
+         location = location+nextLine.charAt(i);
+         i++;
+       }
+      Protocal(location);
+      return;
+    }
+    else{
+      while(nextLine.charAt(i) != '=' && nextLine.charAt(i) != ';'){
+        command = command + nextLine.charAt(i);
+        i++;}
+      if(nextLine.charAt(i) == ';')
+      {
+        System.out.print("111");
+        Comp(command, compList);
+        Dest("null", destList);
+        String jump = "";
+        jump = (nextLine.charAt(i+1) + "" + nextLine.charAt(i+2) + nextLine.charAt(i+3));
+        Jump(jump, jumpList);
+      }
+      else if(nextLine.charAt(i) == '=')
+      {
+        System.out.print("111");
+        String comp = "";
+        i++;
+        while(i<nextLine.length())
+        {
+          comp = comp+nextLine.charAt(i);
+          i++;
+        }
+        Comp(comp, compList);
+        Dest(command,destList);
+        Jump("null", jumpList);
+      }
+    }
+  }
+  
+  public static void Protocal(String location)
+  {
+    System.out.print("0");
+    Specificbion();
+  }
+  
+  public static void Specificbion()
+  {
+    double working = count;
+    for(int i=14; i>=0; i--)
+    {
+      if(working >= Math.pow(2,i))
+      {
+        System.out.print("1");
+        working = (working-Math.pow(2,i));
+      }
+      else
+        System.out.print("0");
+    }
+    count++;
+    System.out.println("");
+  }
+  
+  public static void Comp(String comp, String[][] list)
+  {
+    for (int i=0; i<28; i++){
+      if (comp.equals(list[i][0]))
+            System.out.print(list[i][1]);
+          }
+  }
+  
+  public static void Dest(String dest, String[][] list)
+  {
+     for (int i=0; i<8; i++){
+      if (dest.equals(list[i][0]))
+            System.out.print(list[i][1]);
+          }
+  }
+  
+   public static void Jump(String jump, String[][] list)
+  {
+     for (int i=0; i<7; i++){
+      if (jump.equals(list[i][0]))
+            System.out.print(list[i][1]);
+          }
+  }
+   
+  
+  public static void main(String [] args) throws IOException{
+    Scanner scan = new Scanner(System.in);
+    String [][] action = new String[28][2];
+    Scanner actionFile = new Scanner(new FileReader("Action.txt"));
+    for(int i=0; i<28; i++)
+    {
+      action[i][0] = actionFile.nextLine();
+      action[i][1] = actionFile.nextLine();
+    }
+    String [][] dest = new String[8][2];
+    Scanner destFile = new Scanner(new FileReader("Dest.txt"));
+    for(int i=0; i<8; i++)
+    {
+      dest[i][0] = destFile.nextLine();
+      dest[i][1] = destFile.nextLine();
+    }
+    String [][] jump = new String[7][2];
+    Scanner jumpFile = new Scanner(new FileReader("Jump.txt"));
+    for(int i=0; i<7; i++)
+    {
+      jump[i][0] = jumpFile.nextLine();
+      jump[i][1] = jumpFile.nextLine();
+    }
+    //System.out.println("What file are you reading");
+    //String file = scan.nextLine();
+    //Scanner input = new Scanner(new FileReader(file));
+    /*while(input.hasNextLine())
+    {
+      String input = read.nextLine();
+    }*/
+    Conversion("@1", action, dest, jump);
+  }
+}
+  

@@ -1,0 +1,14 @@
+null
+000
+JGT
+001
+JEG
+010
+JLT
+100
+JNE
+101
+JLE
+110
+JMP
+111

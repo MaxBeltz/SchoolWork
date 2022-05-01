@@ -1,0 +1,21 @@
+Problem
+	create a simulation given the scores of Butler and Xavier to determine who would win at a given point.
+
+Input 
+	two ints representing the scores of the two teams
+	
+Output
+	a string stating that butler is winning by how much or that butler is loosing and how much they need to win
+
+Step by step:
+	1. Create 2 variables (ints) to represent the scores of the two teams
+	2. Set up a series of inputs (2) to represent the scores of the two teams
+		the first input for butler the second for Xavier
+	3. Create an if else statement to determine which value is greater (assuming no equality)
+		If Butler is greater than Xavier
+			Display winning Butler message plus difference in score
+				Butler-Xavier
+		else (impling Butler is less than Xavier)
+			Display loosing Butler message and required score for winning
+				Xavier-Butler + 1
+	4. End the code

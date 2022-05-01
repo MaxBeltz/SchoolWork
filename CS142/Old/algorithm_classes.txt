@@ -1,0 +1,26 @@
+Problem: We want to be able to read a file and extract a name and number then apply that to a class
+
+Input: The name of the file that we want to read
+
+Output: The Name and number of every player
+
+Step by step:
+1. Create a class to hold all of the data 
+	A. The class will have 3 parameters, one for the first name, the last name, and the number
+	B. Create a constructor that will set the three values to dummie values to test for errors
+	C. Create a void constructor again with Dummie values
+	D. Create a void Destructor
+	E. Create 3 methods getNumber, setNumber, getName
+		a. getNumber returns the number
+		b. setNumber which changes the number
+		c. getName which returns the first and last name with a space inbetween
+2. Ensure that the file I/O is initialized
+3. Create an input which will be used to determine which file is opened
+	a. If anything other than roster.txt return an errors
+4. Read through the roster file
+	A. Have each line be concidered its own object seporated by a new line
+			a. Seporate each line into three parts by using a space a space and a new line
+			b. Convert the number string to an int
+			c. Store all the values into an instance of the class that has been set up
+				1. This instance will act as a dump variable.
+5. Print out the number firstname and lastname of each player
